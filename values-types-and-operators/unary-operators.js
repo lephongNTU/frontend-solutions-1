@@ -1,6 +1,6 @@
 /*
  * Type of
- * Write a program that returns a type of input value
+ * Write a program using the typeof operator to evaluate the value parameter.
  */
 
 exports.typeOf = function (value) {
