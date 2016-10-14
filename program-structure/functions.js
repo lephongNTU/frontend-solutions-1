@@ -5,7 +5,8 @@
  *  Venus: orbital period 0.61519726 Earth years
  * You need to round the result by using Math.round
  */
-
+// 1 year on Earth = 1 year on Venus / 0.61519726
+// # year on Earth = ageInSeconds / 31557600
 exports.ageOnVenus = function (ageInSeconds) {
-  return Math.round((0.61519726 * ageInSeconds)/31557600);
+  return Math.round(ageInSeconds/31557600/0.61519726);
 }
